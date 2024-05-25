@@ -81,7 +81,7 @@ function evaluate(state) {
             result = prev / curr;
             break;
         case '%':
-            result = (prev/ curr) * 100;
+            result = (prev/ 100) * curr;
             break;
         // Default case: return 0 if the operator is not recognized
         default:
